@@ -10,7 +10,7 @@ This is a markdown editor.  There are many like it but this one is mine.  It has
 
 It can even open and save files! That is about it.
 
-***Warning: *** This was built as an exercise with Python, Qt, and PySide. **No input validation** is performed, leaving it open to all sorts of fun/risk. It might even be fun to just use this as an exercise on how to hack/break something.
+**Warning:** This was built as an exercise with Python, Qt, and PySide. **No input validation** is performed, leaving it open to all sorts of fun/risk. It might even be fun to just use this as an exercise on how to hack/break something.
 
 Libraries
 -------
@@ -34,3 +34,8 @@ Then just...
 	python markdown-editor.py
 
 and look at it go!
+
+Packaging
+--------
+
+	python setup-osx.py py2app -i PySide.QtNetwork
