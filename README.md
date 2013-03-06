@@ -18,3 +18,19 @@ Libraries
 * [PySide](http://qt-project.org/wiki/Category:LanguageBindings::PySide) (LGPL v2.1) 
 * [Qt](http://qt-project.org) (LGPL v2.1) 
 * [css](https://gist.github.com/andyferra/2554919) (unknown)
+
+Install
+-----
+Follow the instructions for installing PySide and Qt from the PySide website.  If using OSX be sure to have at least:
+
+* Python 2.7.3
+* PySide 1.1.1
+* Qt 4.8.0
+
+Install python-markdown either to your system or save the "markdown" folder at the same level as the script.
+
+Then just...
+
+	python markdown-editor.py
+
+and look at it go!
